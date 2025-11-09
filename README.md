@@ -1,1 +1,1 @@
- stylish theme for *openanime*
+ stylish theme for *openanime*  watch anime desktop app
