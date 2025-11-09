@@ -1,5 +1,5 @@
-/*                                                          08.11.2025
-                                                         made by @7grizi
+/*                                                          09.11.2025
+                                                         made by @7grizi discord
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
@@ -1664,7 +1664,7 @@ a.anime-card.loading::before,
     z-index: 5; 
 }
 
-/* Player tuşları için hover efekti - beyazlaşmayı önlemek için vurgu rengi ile belirginleştirme */
+/* player tus beyaz*/
 .openanime-scene-controller button:hover,
 .openanime-scene-controller .icon-button:hover,
 .bottom-controls button:hover,
@@ -1672,10 +1672,10 @@ a.anime-card.loading::before,
 .player-controls button:hover,
 .controls button:hover,
 .video-controls button:hover {
-    background-color: rgba(167, 139, 250, 0.5) !important; /* Vurgu rengi ile yarı şeffaf arka plan */
-    border-color: rgba(167, 139, 250, 0.7) !important; /* Kenarlık vurgusu */
-    box-shadow: 0 6px 20px rgba(167, 139, 250, 0.4) !important; /* Neon glow efekti */
-    transform: none !important; /* Genel button:hover'dan gelen transform'u sıfırla */
+    background-color: rgba(167, 139, 250, 0.5) !important; 
+    border-color: rgba(167, 139, 250, 0.7) !important; 
+    box-shadow: 0 6px 20px rgba(167, 139, 250, 0.4) !important; 
+    transform: none !important; 
 }
 
 .openanime-scene-controller button.light-variant,
@@ -1695,7 +1695,7 @@ a.anime-card.loading::before,
     }
 }
 
-/* Sadece bölümler kısmında fare imlecini görünür kıl */
+
 .episodes, .episodes .inner-episodes, .episodes .player-episode-list-item {
     cursor: pointer !important;
 }   
@@ -1707,11 +1707,6 @@ a.anime-card.loading::before,
 }
 
 
-/* Sadece sol taraftaki dikdörtgen kutucuğa hafif blurlu arka plan */
-.fansub-selector, .subtitle-selector, .fansub-menu,
-.player-controls .left-section:only-child,
-.openanime-scene-controller .fansub {
-    backdrop-filter: blur(8px) saturate(60%) !important;
-    -webkit-backdrop-filter: blur(8px) saturate(60%) !important;
-   
-}
+
+
+
